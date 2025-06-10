@@ -3,7 +3,7 @@
 # Interface MongoDB
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE.md)
-[![Version](https://img.shields.io/badge/version-beta-orange.svg)](https://github.com/antelopejs/antelope)
+[![Version](https://img.shields.io/badge/version-beta-orange.svg)](https://github.com/AntelopeJS/mongodb/tree/main/.antelope/output/mongodb/beta)
 
 A direct interface to MongoDB client functionality. Interface MongoDB provides access to the underlying MongoDB client instance, allowing advanced operations using the raw MongoDB driver with full TypeScript support.
 

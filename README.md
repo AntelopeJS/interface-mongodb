@@ -30,7 +30,7 @@ This is the development version (`beta`) of the Interface MongoDB. It is current
 
 | Version | Link                                                                                          | Status                                        |
 | ------- | --------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| beta    | [mongodb@beta](https://github.com/AntelopeJS/mongodb/tree/main/.antelope/output/mongodb/beta) | Waiting validation from community to go in v1 |
+| beta    | [mongodb@beta](https://github.com/AntelopeJS/mongodb/tree/main/output/mongodb/beta) | Waiting validation from community to go in v1 |
 | 1       | _Not yet released_                                                                            | Planned stable release                        |
 
 ## License

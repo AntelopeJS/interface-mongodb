@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v0.0.3
+
+[compare changes](https://github.com/AntelopeJS/interface-mongodb/compare/v0.0.2...v0.0.3)
+
+### 📖 Documentation
+
+- Rewrite documentation for production readiness ([fbc243c](https://github.com/AntelopeJS/interface-mongodb/commit/fbc243c))
+
+### 🏡 Chore
+
+- Changelog ([5531909](https://github.com/AntelopeJS/interface-mongodb/commit/5531909))
+- Stage changelog for release ([53407aa](https://github.com/AntelopeJS/interface-mongodb/commit/53407aa))
+- Update package.json and release config ([e7ebcc4](https://github.com/AntelopeJS/interface-mongodb/commit/e7ebcc4))
+- Update dependencies ([b792525](https://github.com/AntelopeJS/interface-mongodb/commit/b792525))
+- Remove wildcard exports and add antelopeJs field ([#3](https://github.com/AntelopeJS/interface-mongodb/pull/3))
+
+### ❤️ Contributors
+
+- Antony Rizzitelli <upd4ting@gmail.com>
+
 ## v0.0.2
 
 

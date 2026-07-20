@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.0.5
+
+[compare changes](https://github.com/AntelopeJS/interface-mongodb/compare/v0.0.4...v0.0.5)
+
+### 🚀 Enhancements
+
+- **skills:** Ship a consumer skill with the package ([#4](https://github.com/AntelopeJS/interface-mongodb/pull/4))
+
+### 🎨 Styles
+
+- Format antelopeJs skills array in package.json ([eecb19b](https://github.com/AntelopeJS/interface-mongodb/commit/eecb19b))
+
+### ❤️ Contributors
+
+- Antony Rizzitelli <upd4ting@gmail.com>
+
 ## v0.0.4
 
 [compare changes](https://github.com/AntelopeJS/interface-mongodb/compare/v0.0.3...v0.0.4)

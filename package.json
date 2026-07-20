@@ -50,6 +50,8 @@
     "access": "public"
   },
   "antelopeJs": {
-    "skills": ["./skills"]
+    "skills": [
+      "./skills"
+    ]
   }
 }

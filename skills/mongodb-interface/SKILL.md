@@ -28,10 +28,10 @@ package, which is a regular dependency of this interface.
 ```typescript
 import { GetClient } from "@antelopejs/interface-mongodb";
 
-async function findUsersByRole(role: string) {
+async function findBooksByGenre(genre: string) {
   const client = await GetClient();
-  const users = client.db("myapp").collection("users");
-  return users.find({ role }).toArray();
+  const books = client.db("library").collection("books");
+  return books.find({ genre }).toArray();
 }
 ```
 

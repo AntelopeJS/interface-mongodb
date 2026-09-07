@@ -1,6 +1,5 @@
 # Changelog
 
-
 ## v0.0.5
 
 [compare changes](https://github.com/AntelopeJS/interface-mongodb/compare/v0.0.4...v0.0.5)
@@ -43,7 +42,6 @@
 
 ## v0.0.2
 
-
 ### 🚀 Enhancements
 
 - Add MongoDB interface implementation ([b706998](https://github.com/AntelopeJS/interface-mongodb/commit/b706998))
@@ -66,4 +64,3 @@
 
 - Antony Rizzitelli <upd4ting@gmail.com>
 - Glastis ([@Glastis](http://github.com/Glastis))
-

@@ -26,7 +26,7 @@ export namespace internal {
    * Connection state flag
    * Indicates whether the MongoDB client is currently connected
    */
-  // biome-ignore lint/style/useConst: reassigned in connection.ts
+  // reassigned in connection.ts
   export let connected = false;
 
   /**

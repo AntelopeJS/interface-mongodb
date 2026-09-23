@@ -1,5 +1,3 @@
-![MongoDB](.github/social-card.png)
-
 # Interface MongoDB
 
 <div align="center">

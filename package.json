@@ -49,7 +49,7 @@
     "mongodb": "^6.21.0"
   },
   "devDependencies": {
-    "@antelopejs/tooling-configs": "^0.0.8",
+    "@antelopejs/tooling-configs": "^0.0.9",
     "@types/node": "^22.19.15",
     "eslint-plugin-perfectionist": "^5.11.0",
     "knip": "^6.34.0",

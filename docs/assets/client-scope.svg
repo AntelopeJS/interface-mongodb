@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" role="img" aria-labelledby="title desc">
+  <title id="title">One shared client, explicit database scope</title>
+  <desc id="desc">The provider supplies MongoClient. Consumers select myapp and users, then use native driver operations. The provider owns client shutdown.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="#627d98"/></marker></defs>
+  <rect width="800" height="350" rx="16" fill="#f4f7fb"/>
+  <g font-family="system-ui, sans-serif" fill="#17324d">
+    <text x="28" y="38" font-size="22" font-weight="700">Select scope, then use the native driver</text>
+    <text x="28" y="65" font-size="14">Connection ownership stays with the implementing module</text>
+    <rect x="28" y="105" width="200" height="146" rx="10" fill="#17324d"/>
+    <text x="46" y="141" fill="#fff" font-size="18" font-weight="700">Shared client</text><text x="46" y="175" fill="#d5e5f3" font-size="16">await GetClient()</text><text x="46" y="221" fill="#d5e5f3" font-size="14">Provider opens / closes</text>
+    <path d="M228 178H270" stroke="#627d98" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="282" y="93" width="490" height="170" rx="12" fill="#e2edf8" stroke="#b0c9e0"/>
+    <text x="302" y="126" font-size="17" font-weight="600">Database · client.db("myapp")</text>
+    <rect x="302" y="145" width="450" height="98" rx="8" fill="#e2f3ec" stroke="#91c7ae"/>
+    <text x="322" y="176" font-size="17" font-weight="600">Collection · db.collection("users")</text><text x="322" y="213" font-size="16">insertOne · find · updateOne · aggregate</text>
+    <text x="28" y="308" font-size="16">GetClient waits for a supplied client; it does not configure a URI or create collections.</text>
+  </g>
+</svg>

@@ -51,14 +51,17 @@ export async function countActiveUsers() {
 
 ## Documentation
 
-- [Introduction](https://interfaces.antelopejs.com/docs/mongodb/introduction)
+- [Introduction and client reference](./docs/1.introduction.md)
 
 ## Compatibility
 
-| Package                       | Range     |
-| ----------------------------- | --------- |
-| `mongodb` driver (dependency) | `^6.21.0` |
-| `@antelopejs/core`            | `1.x`     |
+Requires AntelopeJS core `1.x` and the following driver dependency:
+
+<!-- docs-compat: ./package.json#dependencies -->
+
+| Package   | Range     |
+| --------- | --------- |
+| `mongodb` | `^6.21.0` |
 
 ## Contributing
 

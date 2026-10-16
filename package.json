@@ -1,12 +1,17 @@
 {
   "name": "@antelopejs/interface-mongodb",
   "version": "0.0.5",
-  "description": "AntelopeJS interface for MongoDB-specific database operations",
+  "description": "AntelopeJS interface for direct access to the shared MongoDB client",
   "keywords": [
     "antelopejs",
+    "database",
     "interface",
     "mongodb"
   ],
+  "homepage": "https://interfaces.antelopejs.com/docs/mongodb",
+  "bugs": {
+    "url": "https://github.com/AntelopeJS/interface-mongodb/issues"
+  },
   "license": "Apache-2.0",
   "repository": {
     "type": "git",

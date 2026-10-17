@@ -1,5 +1,34 @@
 # Changelog
 
+## v0.0.6
+
+[compare changes](https://github.com/AntelopeJS/interface-mongodb/compare/v0.0.5...v0.0.6)
+
+### 📖 Documentation
+
+- **readme:** Remove social card image ([#9](https://github.com/AntelopeJS/interface-mongodb/pull/9))
+- Rewrite the README ([#15](https://github.com/AntelopeJS/interface-mongodb/pull/15))
+- **agents:** Simplify repository guidance ([#16](https://github.com/AntelopeJS/interface-mongodb/pull/16))
+- Link local reference and check compatibility ([#17](https://github.com/AntelopeJS/interface-mongodb/pull/17))
+
+### 🏡 Chore
+
+- Replace Biome with oxlint, oxfmt and Knip ([#6](https://github.com/AntelopeJS/interface-mongodb/pull/6))
+- Align community files with the organization defaults ([#8](https://github.com/AntelopeJS/interface-mongodb/pull/8))
+- Remove .git-blame-ignore-revs ([#10](https://github.com/AntelopeJS/interface-mongodb/pull/10))
+
+### 🤖 CI
+
+- Standardize npm releases ([#5](https://github.com/AntelopeJS/interface-mongodb/pull/5))
+- Use shared npm release workflow ([#7](https://github.com/AntelopeJS/interface-mongodb/pull/7))
+- **release:** Release next from a dedicated branch and restore requireCommits ([#11](https://github.com/AntelopeJS/interface-mongodb/pull/11))
+- **release:** Reference the shared release workflows through v1 ([#12](https://github.com/AntelopeJS/interface-mongodb/pull/12))
+
+### ❤️ Contributors
+
+- Antony Rizzitelli <rizzitelli.antony@pm.me>
+- Thomas ([@Thomasims](http://github.com/Thomasims))
+
 ## v0.0.5
 
 [compare changes](https://github.com/AntelopeJS/interface-mongodb/compare/v0.0.4...v0.0.5)

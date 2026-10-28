@@ -49,7 +49,6 @@ export namespace internal {
     return client;
   };
 
-  // Initialize the client promise on module load
   void UnsetClient();
 }
 

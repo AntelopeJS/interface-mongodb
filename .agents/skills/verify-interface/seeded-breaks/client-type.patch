@@ -1,0 +1,12 @@
+diff --git a/src/index.ts b/src/index.ts
+index 97a4bcf..d8b0bb6 100644
+--- a/src/index.ts
++++ b/src/index.ts
+@@ -60,6 +60,6 @@ export namespace internal {
+  *
+  * @returns A promise that resolves to the MongoDB client instance
+  */
+-export function GetClient(): Promise<MongoClient> {
++export function GetClient(): Promise<MongoClient | undefined> {
+   return internal.client;
+ }

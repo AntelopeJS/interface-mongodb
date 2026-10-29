@@ -1,0 +1,13 @@
+diff --git a/src/index.ts b/src/index.ts
+index 97a4bcf..bdbb59c 100644
+--- a/src/index.ts
++++ b/src/index.ts
+@@ -44,7 +44,7 @@ export namespace internal {
+    */
+   export const UnsetClient = () => {
+     client = new Promise((resolve) => {
+-      SetClient = resolve;
++      SetClient = () => resolve(undefined as never);
+     });
+     return client;
+   };

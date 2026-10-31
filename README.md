@@ -55,7 +55,7 @@ export async function countActiveUsers() {
 
 ## Compatibility
 
-Requires AntelopeJS core `1.x` and the following driver dependency:
+The interface depends on the official MongoDB driver:
 
 <!-- docs-compat: ./package.json#dependencies -->
 

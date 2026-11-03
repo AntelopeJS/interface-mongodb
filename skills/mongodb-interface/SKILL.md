@@ -56,8 +56,10 @@ touch `internal`.
 - When it disconnects (when AntelopeJS destroys it, or before it reconnects),
   it closes the client and calls `internal.UnsetClient()`.
 - It connects with the URL and options only, so `client.db()` without a name
-  uses the database named in the connection string, not the module's
-  `database` option.
+  never uses the module's `database` option. The driver picks the default:
+  `dbName` in the module's `options` (the `MongoClientOptions` it passes on)
+  wins, then the database named in the connection string, and `test` when
+  neither names one.
 
 ## Gotchas
 

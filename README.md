@@ -1,10 +1,10 @@
-# @antelopejs/interface-mongodb
+# `@antelopejs/interface-mongodb`
 
 <div align="center">
-<a href="https://www.npmjs.com/package/@antelopejs/interface-mongodb"><img alt="npm" src="https://img.shields.io/npm/v/@antelopejs/interface-mongodb?style=for-the-badge&labelColor=000000&color=000000"></a>
-<a href="./LICENSE"><img alt="License" src="https://img.shields.io/npm/l/@antelopejs/interface-mongodb?style=for-the-badge&labelColor=000000&color=000000"></a>
-<a href="https://discord.gg/g4pFt6eXqu"><img alt="Discord" src="https://img.shields.io/badge/Discord-18181B?logo=discord&style=for-the-badge&color=000000"></a>
-<a href="https://interfaces.antelopejs.com/docs/mongodb"><img alt="Docs" src="https://img.shields.io/badge/Docs-18181B?style=for-the-badge&color=000000"></a>
+<a href="https://www.npmjs.com/package/@antelopejs/interface-mongodb"><img data-illustration alt="npm" src="https://img.shields.io/npm/v/@antelopejs/interface-mongodb?style=for-the-badge&labelColor=000000&color=000000"></a>
+<a href="./LICENSE"><img data-illustration alt="License" src="https://img.shields.io/npm/l/@antelopejs/interface-mongodb?style=for-the-badge&labelColor=000000&color=000000"></a>
+<a href="https://discord.gg/g4pFt6eXqu"><img data-illustration alt="Discord" src="https://img.shields.io/badge/Discord-18181B?logo=discord&style=for-the-badge&color=000000"></a>
+<a href="https://interfaces.antelopejs.com/docs/mongodb"><img data-illustration alt="Docs" src="https://img.shields.io/badge/Docs-18181B?style=for-the-badge&color=000000"></a>
 </div>
 
 Direct access to the MongoDB client of an AntelopeJS project, for the native operations that the database-agnostic [`@antelopejs/interface-database`](https://github.com/AntelopeJS/interface-database) does not cover.
@@ -13,13 +13,13 @@ Direct access to the MongoDB client of an AntelopeJS project, for the native ope
 
 - `GetClient()` resolves to the project's shared `MongoClient` once the connection is up.
 - The client is the official Node.js driver, with its full API: CRUD, aggregations, indexes and transactions.
-- Every module reuses the one connection that the implementing module opens and configures.
+- Every module gets the same `MongoClient`. The implementing module opens it, configures it, and closes it.
 
 ## Implementations
 
-| Module                                                         | Notes                                            |
-| -------------------------------------------------------------- | ------------------------------------------------ |
-| [`@antelopejs/mongodb`](https://github.com/AntelopeJS/mongodb) | Also implements `@antelopejs/interface-database` |
+| Module                                                         | Notes                                                                                                   |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [`@antelopejs/mongodb`](https://github.com/AntelopeJS/mongodb) | Also implements `@antelopejs/interface-database`. Supplies the client in its default `owned` mode only. |
 
 ## Install
 

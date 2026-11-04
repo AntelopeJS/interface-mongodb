@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "mongodb-interface-raw-query",
+      "area": "framework",
+      "style": "clean",
+      "prompt": "In my AntelopeJS module I need to run a MongoDB aggregation on the orders collection with the native driver. How do I get the client?",
+      "expect": {
+        "skills": ["mongodb-interface"],
+        "acceptable": ["ajs-consume-interface", "antelopejs"],
+        "mustMention": ["GetClient"]
+      }
+    },
+    {
+      "id": "mongodb-interface-raw-query-casual",
+      "area": "framework",
+      "style": "casual",
+      "prompt": "how do i just get the mongo client in my module, need to do a raw find",
+      "expect": {
+        "skills": ["mongodb-interface"],
+        "acceptable": ["ajs-consume-interface", "antelopejs"],
+        "mustMention": ["GetClient"]
+      }
+    },
+    {
+      "id": "mongodb-interface-database-neighbour",
+      "area": "framework",
+      "style": "clean",
+      "prompt": "In my AntelopeJS module, declare a users table class with @RegisterTable, an @Index on email, and read it through a model, so the code does not depend on which database provider runs it.",
+      "expect": {
+        "skills": ["database-decorators-interface"],
+        "acceptable": [
+          "database-interface",
+          "ajs-consume-interface",
+          "antelopejs"
+        ],
+        "avoid": ["mongodb-interface"]
+      }
+    },
+    {
+      "id": "mongodb-interface-getclient-hangs",
+      "area": "framework",
+      "style": "clean",
+      "prompt": "await GetClient() from @antelopejs/interface-mongodb never resolves in my project. @antelopejs/mongodb is loaded with mode external. Why?",
+      "expect": {
+        "skills": ["mongodb-interface"],
+        "acceptable": ["ajs-consume-interface", "antelopejs"],
+        "mustMention": ["owned", "SetClient"]
+      }
+    }
+  ]
+}

@@ -9,6 +9,8 @@
 
 Direct access to the MongoDB client of an AntelopeJS project, for the native operations that the database-agnostic [`@antelopejs/interface-database`](https://github.com/AntelopeJS/interface-database) does not cover.
 
+Part of [AntelopeJS](https://github.com/AntelopeJS/antelopejs), the TypeScript framework where modules depend on contracts and the application chooses the provider. Built by the team behind [AntelopeJS DMS](https://github.com/AntelopeJS/dms).
+
 ## What it offers
 
 - `GetClient()` resolves to the project's shared `MongoClient` once the connection is up.

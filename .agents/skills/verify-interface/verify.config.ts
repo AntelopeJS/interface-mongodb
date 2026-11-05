@@ -67,7 +67,6 @@ const config: VerifyConfig<typeof MongoInterface> = {
     contract: {
       globs: ["src/index.ts", "package.json"],
       funnels: [],
-      containments: [],
       why: "GetClient and the exports map are what every MongoDB consumer imports",
     },
     outbound: null,
@@ -75,7 +74,6 @@ const config: VerifyConfig<typeof MongoInterface> = {
     publish: {
       globs: ["package.json", ".release-it.json", "changelogen.config.json", ".github/workflows/release.yml"],
       funnels: [],
-      containments: [],
       why: "the package name and release workflow claim @antelopejs/interface-mongodb on npm",
     },
   },

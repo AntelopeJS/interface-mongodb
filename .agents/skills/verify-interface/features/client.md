@@ -3,6 +3,8 @@ covers:
   - src/index.ts
 docs:
   - docs/1.introduction.md
+  - README.md
+  - skills/mongodb-interface/SKILL.md
 journeys:
   - every-function
   - minor-bump

@@ -41,7 +41,7 @@
     "lint:fix": "oxlint --fix",
     "lint": "oxlint",
     "prepack": "pnpm run build",
-    "release": "pnpm run lint && pnpm run prepack && release-it",
+    "release": "pnpm run lint && pnpm run typecheck && pnpm run prepack && release-it",
     "format:check": "oxfmt --check .",
     "knip": "knip",
     "prepare": "if [ -e .git ] && command -v git >/dev/null 2>&1 && command -v lefthook >/dev/null 2>&1 && GIT_DIR=.git GIT_WORK_TREE=. git rev-parse --git-dir >/dev/null 2>&1; then GIT_DIR=.git GIT_WORK_TREE=. lefthook install; fi",
@@ -60,7 +60,7 @@
   "devDependencies": {
     "@antelopejs/core": "^1.21.0",
     "@antelopejs/interface-core": ">=0.2.4 <1.0.0",
-    "@antelopejs/tooling-configs": "^0.4.0",
+    "@antelopejs/tooling-configs": "^0.5.0",
     "@types/node": "^22.19.15",
     "eslint-plugin-perfectionist": "^5.11.0",
     "knip": "^6.34.0",

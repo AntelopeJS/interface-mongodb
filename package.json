@@ -1,6 +1,6 @@
 {
   "name": "@antelopejs/interface-mongodb",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "AntelopeJS interface for direct access to the shared MongoDB client",
   "keywords": [
     "antelopejs",

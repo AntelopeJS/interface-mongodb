@@ -1,5 +1,24 @@
 # Changelog
 
+## v0.0.8
+
+[compare changes](https://github.com/AntelopeJS/interface-mongodb/compare/v0.0.7...v0.0.8)
+
+### 🩹 Fixes
+
+- **verify:** Judge README and the skill on GetClient changes ([#40](https://github.com/AntelopeJS/interface-mongodb/pull/40))
+
+### 📦 Build
+
+- **deps:** Bump @antelopejs packages to the 2026-11-06 releases ([#39](https://github.com/AntelopeJS/interface-mongodb/pull/39))
+- **deps:** Bump @antelopejs/tooling-configs to 0.4.0 ([#41](https://github.com/AntelopeJS/interface-mongodb/pull/41))
+- **deps:** Bump @antelopejs/tooling-configs to 0.5.0 ([#42](https://github.com/AntelopeJS/interface-mongodb/pull/42))
+- **deps:** Bump @antelopejs/tooling-configs to 0.5.1 ([#43](https://github.com/AntelopeJS/interface-mongodb/pull/43))
+
+### ❤️ Contributors
+
+- Antony Rizzitelli ([@Upd4ting](http://github.com/Upd4ting))
+
 ## v0.0.7
 
 [compare changes](https://github.com/AntelopeJS/interface-mongodb/compare/v0.0.6...v0.0.7)

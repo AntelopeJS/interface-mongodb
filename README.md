@@ -12,7 +12,7 @@
 
 </div>
 
-Direct access to the MongoDB client of an AntelopeJS project, for the native operations that the database-agnostic [`@antelopejs/interface-database`](https://github.com/AntelopeJS/interface-database) does not cover.
+Write portable queries with the database-agnostic [`@antelopejs/interface-database`](https://github.com/AntelopeJS/interface-database), and reach for this interface when a query needs the native driver.
 
 ## What it offers
 

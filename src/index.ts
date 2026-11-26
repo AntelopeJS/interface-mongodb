@@ -1,11 +1,3 @@
-/**
- * MongoDB Interface for Antelope
- *
- * This file defines the core MongoDB client interface used throughout the Antelope application.
- * It provides a centralized way to manage MongoDB connections using a singleton pattern
- * to ensure only one client connection is active at a time.
- */
-
 import type { MongoClient } from "mongodb";
 
 /**
